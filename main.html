@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Matthew Bennett | Developer</title>
+    
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    
+      <script src="../js/main.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+      
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="10" id="home">
+    <div class="back target"></div>
+    <!-- Header -->
+    <div class="header">
+      <div class="container-fluid bg-0 text-center">
+        <div class="top">
+          <h1 id="intro"><span id="first"></span><span id="second"></span><span id="third"></span></h1>
+          <br>
+            <button type="button" class="btn-default" id="work-btn">View my work</button>
+        </div>
+      </div>
+
+    </div>    
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-default" data-spy="affix" data-offset-top="725">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>    
+            <span class="icon-bar"></span>    
+            <span class="icon-bar"></span>      
+          </button>        
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="active" id="act"><a href="#">HOME</a></li> 
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- About -->
+    <div class="container-fluid bg-1 target" id="about">
+      <h3 class="margin" id="welcome">ABOUT</h3>
+        <br>
+        <!--<div class="container"> -->
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="thumbnail" id="profile-pic">
+                <img src="../assets/matt_pic.JPG" class="img-circle">
+              </div>
+            </div>
+            <div class="col-sm-8">
+              <p>Welcome to my website! I'm a recent graduate from Sonoma State University, located in Northern California, with a Bachelor of Science degree in Computer Science. I am currently seeking full-time opportunities for software development positions.</p>
+              <br>
+              <p>I enjoy developing, whether it be on the web, mobile applications, or software in general. Staying on top of new technologies is a passion of mine and I strive to create solutions that will help others.</p>
+              <br>
+              <p>While I'm not hard at work, I enjoy playing video games, traveling to new places, and spending time with my friends and family.</p>
+              <br>
+            </div>
+        <!--  </div> -->
+        </div>
+        <p class="resume-desc">Check out my resume here and some projects I've worked on below!</p>
+        <div class="resume">
+          <a href="../assets/MatthewBennettResume.pdf" download="MatthewBennettResume" class="fa fa-download"> Download Resume</a>
+        </div>
+    </div>
+     
+    <!-- Projects -->
+   <!-- Projects -->
+    <div class="container-fluid bg-2 text-center target" id="projects">
+      <h3 class="margin" id="portfolio">PROJECTS</h3>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <a href="https://www.github.com/matthewjbbennett/vglogger" target="_blank">
+              <img src="../assets/vgl.png" alt="Swift" class="img-responsive">
+              <div class="caption">
+                <p>An iOS mobile application that is a resource tool for video game lovers.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <a href="https://www.github.com/matthewjbbennett/mattsweb" target="_blank">
+              <img src="../assets/website-pic.png" alt="Web" class="img-responsive">
+              <div class="caption">
+                <p>Check out the code for the responsive website you're on right here.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-4"> 
+          <div class="thumbnail">
+            <a href="https://github.com/MatthewJBBennett/cs370-Project" target="_blank">
+              <img src="../assets/forklift.png" alt="Java" class="img-responsive">
+              <div class="caption">
+                <p>An Android mobile application that records physical activity and caloric intake.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      
+    <!-- Contact -->
+    <div class="container-fluid bg-3 text-center target" id="contact">
+      <h3 class="margin">CONTACT</h3>
+      <h4 class="contact-q">Have a question or want to work together?</h4>
+      <form  method="POST" action="https://formspree.io/matthewjbbennett@gmail.com">
+        <div class="form-group">
+          <input type="text" class="form-control" name="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" name="_replyto" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" placeholder="Your Message" name="message" rows="7"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">SUBMIT</button>
+      </form>  
+      <br>
+    </div>  
+
+    <!-- Footer -->  
+    <footer>
+          <button type="button" class="fa fa-angle-double-up" id="top-btn"></button>
+        <a href="https://www.linkedin.com/in/matthewjbbennett/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://www.github.com/matthewjbbennett/" target="_blank" class="fa fa-github"></a>
+        <br>
+        <p><span class="author">Matthew Bennett</span> <span class="year">&copy;2018</span></p>
+    </footer>  
+  </body>
+</html>

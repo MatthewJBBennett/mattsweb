@@ -1,0 +1,316 @@
+/* Footer */
+footer {
+    padding: 70px 0 50px 0;
+    text-align: center;
+    position: relative;
+    background-color: #535d6a;
+}
+
+footer .author {
+    color: #d2f178;
+    font-size: 12pt;
+}
+
+footer .year {
+    color: #ee7470;
+    font-size: 12pt;
+}
+
+.fa-linkedin:hover {
+    border: 3px solid #ee7470;
+    color: white;
+    background-color: #ee7470;
+}
+
+.fa-linkedin {
+  padding: 15px;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 15px 20px;
+  background: #71c9c3;
+  vertical-align: middle;
+  font-size: 18pt !important;
+  color: white;
+  border: 3px solid white;
+}
+
+.fa-github:hover {
+    border: 3px solid #ee7470;
+    color: white;
+    background-color: #ee7470;
+}
+
+.fa-github {
+  padding: 15px;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 15px 20px;
+  background: #71c9c3;
+  vertical-align: middle;
+  font-size: 18pt !important;
+  color: white;
+  border: 3px solid white;
+}
+
+.fa-angle-double-up {
+    width: 47px;
+    height: 50px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    position: absolute;
+    text-align: center;
+    top: -25px;
+    left: 0;
+    right: 0;
+    background-color: #d2f178;
+    font-size: 36pt !important;
+    color: #ee7470;
+    line-height: 40;
+}
+
+.fa-angle-double-up:hover {
+    background-color: #dcfc7b;
+}
+
+#second {
+    color: #d2f178;
+}
+
+#about {
+    padding-top:60px;
+    padding-bottom:150px;
+}
+
+#projects {
+    padding-top:60px;
+    padding-bottom: 150px; 
+}
+
+#contact {
+    padding-top:60px;
+    padding-bottom:150px; 
+}
+
+ .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+.affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+
+.btn-default[type=button] {
+    border: 3px solid white;
+    background-color: transparent;
+    padding: 5px 25px;
+    font-size: 18px;
+    color: white;
+    border-radius: 0;
+}
+
+.btn-default[type=button]:hover {
+    background-color: #ee7470 !important;
+    border: 3px solid white;
+    color: white;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+}
+
+.back { 
+     background-image: url("../assets/background.jpg"); 
+     height: 100%;
+    background-size: cover;
+     background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#profile-pic {
+    background-color: transparent !important;
+    border: 0 !important;
+}
+
+.resume {
+    text-align: center;  
+    position: absolute;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 40px;
+    left: 0;
+    right: 0;
+    
+}
+
+.resume-desc {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.fa-download {
+    color: white;
+    font-size: 16pt !important;
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #71c9c3;
+    border-radius: 100px;
+    border: 3px solid white;
+}
+
+.fa-download:hover {
+    background-color: #ee7470;
+    border: 3px solid #71c9c3;
+    color: white;
+}
+
+.navbar-default {
+    background: #535d6a !important;
+    font-size: 12pt;
+    margin-bottom: 0 !important;
+    
+}
+
+.nav.navbar-nav.navbar-left li a {
+    color: white;
+}
+
+.navbar.navbar-default {
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #d2f178 !important;
+}
+
+ul.nav a:hover {
+    color: #ee7470 !important;
+}
+
+li.active a {
+     color: #ee7470 !important;
+     background-color: transparent !important;
+}
+
+.active {
+    color: #ee7470 !important;
+}
+
+.bg-1 {
+    display: block;
+    margin: auto;
+    background-color: #d2f178;
+    height: auto;
+}
+
+.bg-2 {
+    display: block;
+    background-color: #ee7470;
+    height: auto;
+}
+
+.thumbnail {
+    background-color: #ee7470 !important;
+    border: 3px solid white !important;
+}
+
+a:hover {
+    color: white !important;
+}
+
+.margin {
+    text-align: center;
+    font-size: 30pt;
+}
+
+.bg-3 {
+    display: block;
+    background-color: #71c9c3;
+    height: auto;
+}
+
+#welcome {
+    margin-bottom: 50px;
+}
+
+#portfolio {
+    margin-bottom: 50px;
+}
+
+.contact-q {
+    font-size: 16pt;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    
+    margin-bottom: 50px;
+}
+
+textarea {
+    margin-bottom: 10px !important;
+}
+
+.form-group {
+    margin-bottom: 5px !important;
+}
+
+.btn[type=submit]:hover {
+    border: 3px solid #ee7470;
+    background-color: #ee7470 !important;
+    color: white;
+}
+
+.btn[type=submit] {
+    border: 3px solid white;
+    float: right;
+    background-color: transparent;
+    padding: 5px 25px;
+    font-size: 18px;
+    color: white;
+    border-radius: 0;
+}
