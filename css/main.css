@@ -1,4 +1,3 @@
-/* Footer */
 footer {
     padding: 70px 0 50px 0;
     text-align: center;
@@ -56,26 +55,32 @@ footer .year {
   border: 3px solid white;
 }
 
-.fa-angle-double-up {
-    width: 47px;
-    height: 50px;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+.btn-primary {
     position: absolute;
-    text-align: center;
-    top: -25px;
-    left: 0;
-    right: 0;
-    background-color: #d2f178;
-    font-size: 36pt !important;
-    color: #ee7470;
-    line-height: 40;
+    top: -25px !important;
+    background-color: #d2f178 !important;
+    width: 50px !important;
+    height: 50px !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    vertical-align: middle !important;
+    line-height: 45px !important;
+    color: #ee7470 !important;
+    border-radius: 100%;
 }
 
-.fa-angle-double-up:hover {
-    background-color: #dcfc7b;
+.wrapper {
+    text-align: center;
+   }
+
+.btn-primary:hover {
+    background-color: #dcfc7b !important;
+}
+
+.fa-angle-double-up {
+   text-align: center !important;
+    margin:auto !important;
 }
 
 #second {
@@ -138,7 +143,7 @@ a {
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 16pt;
+    font-size: 26pt;
 }
 
 html, body {
@@ -223,6 +228,14 @@ html, body {
     background-color: #d2f178 !important;
 }
 
+.navbar-default .navbar-toggle:hover {
+    background-color: #71c9c3 !important;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent !important;
+}
+
 ul.nav a:hover {
     color: #ee7470 !important;
 }
@@ -252,6 +265,10 @@ li.active a {
 .thumbnail {
     background-color: #ee7470 !important;
     border: 3px solid white !important;
+}
+
+.thumbnail:hover {
+    background-color: #d2f178 !important;
 }
 
 a:hover {
@@ -313,4 +330,37 @@ textarea {
     font-size: 18px;
     color: white;
     border-radius: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn[type=submit] {
+    border: 3px solid white;
+    float: none;
+    background-color: transparent;
+    padding: 5px 25px;
+    font-size: 18px;
+    color: white;
+    border-radius: 0;
+	}
+	
+  #desc {
+    text-align: center;
+  }
+  
+  .btn-primary {
+    position: absolute;
+    top: -25px !important;
+    background-color: #d2f178 !important;
+    width: 50px !important;
+    height: 50px !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    vertical-align: middle !important;
+    line-height: 45px !important;
+    color: #ee7470 !important;
+    padding-left: 11px;
+    border-radius: 100%;
+  }
+  
 }
